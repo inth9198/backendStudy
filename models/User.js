@@ -30,3 +30,6 @@ const userSchema = mongoose.Schema({
         type: Number,
     }
 })
+const User = mongoose.model('User', userSchema)
+
+module.exports = {User}//다른곳에서도 쓸수 있게
