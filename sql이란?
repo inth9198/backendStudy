@@ -1,0 +1,11 @@
+SQL
+
+데이터 베이스와 소통하기 위해 특별히 디자인된 언어이다
+
+엑세과 유사하게 생김 행과 열이 있다.  
+
+SELECT email FROM students WHERE age > 21;
+SELECT age FROM students WHERE email LIKE"%naver.com";
+이런식으로 언어와 유사하다.
+
+평소엔 ORM을 이용하여 처리해서 바꿈니바.
